@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto">
+    <item local:state_moon="true" android:drawable="@drawable/moon_sun" />
+    <item local:state_sun="true" android:drawable="@drawable/sun_moon" />
+    <item android:drawable="@drawable/sun_moon" />
+</selector>
